@@ -1,0 +1,255 @@
+:root {
+  --primary: #c8ae7d;
+  --bg: #ceab93;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-image: url(assets/img/tes5.jpg); */
+}
+
+/* navbar  */
+
+.navbar {
+  z-index: 5;
+}
+
+.nav-color {
+  background-color: #ceab93;
+  transition: all ease-in-out 0.5s;
+}
+.bg-transparent {
+  transition: all ease-in 0.5s;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.navbar-nav {
+  text-transform: uppercase;
+  font: 600;
+}
+
+.nav-link {
+  font-size: 17px;
+  color: white;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.navbar .navbar-nav a:hover {
+  color: black;
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid white;
+  transform: scaleX(0);
+  transition: 0.2s;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+/* about */
+
+.about-section h1 {
+  padding-top: 90px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.about-section p {
+  padding-top: 5px;
+  font-size: 23px;
+}
+
+.about {
+  height: 500px;
+  width: 100%;
+  background-color: var(--primary);
+  /* background-image: url(assets/img/tes2.jpg); */
+  background-attachment: fixed;
+}
+
+.about span {
+  font-weight: 700;
+}
+
+/* carousel */
+
+.carousel-item {
+  width: 100%;
+  height: 100vh !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item::before {
+  content: "";
+  background-color: rgba(12, 11, 10, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption h5 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 42px;
+  font-weight: 700;
+  width: 80%;
+  margin: 0px auto 30px auto;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0px auto 30px auto;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 577px) {
+  .carousel-caption h5 {
+    font-size: 25px;
+  }
+  .carousel-caption p {
+    font-size: 13px;
+  }
+}
+
+/* layanan */
+
+#layanan {
+  background-image: url(../img/tes5.jpg);
+  background-repeat: no-repeat;
+  height: 880px;
+  padding-top: 130px;
+}
+
+#layanan h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: black;
+}
+
+.sub-title {
+  font-size: 25px;
+  color: black;
+}
+
+.card-layanan {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.card-layanan img {
+  height: 250px;
+}
+
+.card-layanan p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card-body {
+  background-color: grey;
+}
+
+.gallery {
+  height: 100vh;
+  background-color: var(--primary);
+}
+.gallery h1 {
+  font-size: 55px;
+  font-weight: 600;
+  color: black;
+}
+.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+.tentang {
+  padding: 20vmin 0;
+  background-color: var(--primary);
+}
+
+.tentang .row .col-md-6 .tentang-img img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 2px;
+}
+
+.tentang .row .col-md-6:last-child {
+  position: relative;
+}
+
+.tentang .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  z-index: 1;
+}
+
+.tentang .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 40px;
+}
+
+.tentang .row .col-md-6 .panel p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#kontak {
+  background-color: var(--primary);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  background-color: var(--primary);
+  padding-bottom: 2px;
+  padding-top: 5px;
+}

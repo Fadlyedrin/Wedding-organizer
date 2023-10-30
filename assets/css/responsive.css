@@ -1,0 +1,113 @@
+@media screen and (max-width: 922px) {
+  .about h1 {
+    font-size: 38px;
+  }
+  .about p {
+    font-size: 25px;
+  }
+  .about {
+    height: 580px;
+    width: 100%;
+  }
+  .gallery {
+    height: 2150px;
+  }
+  .gallery h1 {
+    font-size: 45px;
+  }
+  .gallery h3 {
+    font-size: 30px;
+  }
+  iframe {
+    height: 300px;
+    width: 100%;
+  }
+  .tentang .row .col-md-6 .panel {
+    left: 0;
+    padding: 6% 3vmin 10vmin 5vmin;
+    width: 400px;
+  }
+  .tentang {
+    height: 950px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about h1 {
+    font-size: 34px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+  .about {
+    height: 620px;
+    width: 100%;
+  }
+  #layanan h2 {
+    font-size: 40px;
+  }
+  .gallery {
+    height: 2150px;
+  }
+  .gallery h1 {
+    font-size: 38px;
+  }
+  .gallery h3 {
+    font-size: 27px;
+  }
+  iframe {
+    height: 300px;
+    width: 100%;
+  }
+
+  .tentang .row .col-md-6 .panel {
+    left: 14px;
+    top: -25px;
+    width: 350px;
+  }
+  .tentang {
+    height: 1150px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .about h1 {
+    font-size: 24px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+  .about {
+    height: 820px;
+    width: 100%;
+  }
+
+  #layanan h2 {
+    font-size: 40px;
+  }
+
+  .card-layanan {
+    width: 100%;
+  }
+
+  .gallery {
+    height: 2120px;
+  }
+  .gallery h1 {
+    font-size: 38px;
+  }
+  .gallery h3 {
+    font-size: 27px;
+  }
+  iframe {
+    height: 300px;
+    width: 100%;
+  }
+  .tentang .row .col-md-6 .panel {
+    left: 13%;
+    top: -25px;
+    padding: 6% 3vmin 10vmin 5vmin;
+  }
+  .tentang {
+    height: 1290px;
+  }
+}
